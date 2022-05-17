@@ -1,0 +1,54 @@
+/* Line two i think is starting a statement for CSS since it has the universal selector and so i think it is the start of a statement*/
+*{
+box-sizing: border-box;  
+}
+/* i think line six makes sure that the specific part of the page which is the body */
+body{
+  background-color:maroon;
+  color: black;
+}
+/* style of the nav bar */
+.topnav{
+  background-color:maroon;
+  overflow: hidden;
+}
+/* style the links inside the navagation bar */
+.topnav a{
+  color: black;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+/* changes color on hover or mouse over*/
+.topnav a:hover{
+  background-color: black;
+  color:firebrick;
+}
+.header{
+  background-color: maroon;
+  padding: 20px;
+  text-align: center;
+  color: black;
+}
+/*creates 3 equal columns that float next to each other*/
+.column{
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+  background-color:maroon;
+}
+.p1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.p2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.p3 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+.Dog green{
+  background-color: forestgreen; 
+}

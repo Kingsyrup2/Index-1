@@ -1,0 +1,14 @@
+.big_pp{
+  color:darkgoldenrod;
+  border: 2px darkred;
+  position:relative;
+    background-color: black;
+  padding: 15px;
+  height: 200px;
+  width: 200px;
+}
+button{
+  color: black;
+  background-color: darkgoldenrod;
+  border-radius: 50%;
+}

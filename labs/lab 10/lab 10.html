@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>replit</title>
+  <link href="../../style.css" rel="stylesheet" type="text/css" />
+    	<link rel="stylesheet" href="../../style.css">
+ <style>
+        *{
+          box-sizing: border-box;
+        }
+        body{
+          /* the class selector chooses html elements with a specific class attribute. to select elements with a specific class write a period character followed by the class name*/
+          
+          background-image:url("https://live.staticflickr.com/7156/6419128151_84470f8da1_b.jpg");
+          background-repeat:no-repeat;
+          background-image:linear-gradient(to left,maroon,black);
+          background-image:size(100%);
+          background-image:conic-gradient(black,maroon);
+        }
+        .header{
+          background-image:repeating-radial-gradient(maroon 40%,black 1%, forestgreen 59%);
+          text-align: center;
+          padding: 20px;
+          margin: 5px;
+          color: maroon;
+        }
+        /*THe id selector uses the id attribute of a html element to select a specific amount. THe id element is unique within a page so the id selector is used to select one unique element to select and element with a specific id type a hashtag(#) character followed by the elements id */
+        .Dog{
+          color: black;
+        }
+        .h12{
+          color: black:
+        }
+        .h13{
+          color: black;
+        }
+        #debox{
+          /*the grouping selector selects all the html elements with the same style definitions.*/
+          /*Its better to group the selectors, to minimize the code tp group selectors  seperate each selector with a comma*/
+          Dog, h12, h13{}
+        }
+        /*CSS combinators
+        A combinator is something that explains the relationship between the selectors 
+        A css selector, Betweem the simple sectors we can include a combinator. THere are four different combinators in CSS:
+        child selector: (>)
+        Adjacent sibling select: (+)
+        Gemeral sibling selector;(~)*/    
+    /* a pseudo class is used to define a specieal state of an element for example it can be used to style an element when a users mouse moves over it and unvisited links differently style an element when it gets focus*/
+    
+    a[target]{
+      background-color: black;
+    }
+        </style>
+</head>
+<body>
+	<center>
+    <div class="header">
+		<h1> Thomas A. Edison CTE HS</h1>
+		<h2> Web developer accademy</h2>
+		<h3> 10th grade</h3>
+		<h4> lab 10 </h4>
+    <a href="../../index.html"> Return to homepage</a>
+    </div>
+    <center>
+    <div id="Dog green">  
+        <div class="Dog green">
+      <h1 id="h12">Jacob</h1>
+      <h2 id="Dog">Watkins</h2>
+      <h3 id="h13">2/9/22</h3>
+        </div>
+</body>
+</html>

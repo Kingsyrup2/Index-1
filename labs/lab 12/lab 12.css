@@ -1,0 +1,71 @@
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+.asstray{
+  display: none;
+  position: absolute;
+  background-color: forestgreen;
+  min-width:160px;
+  box-shadow: 0px 8px 16px 0px; 
+  padding: 13px;
+  z-index: 1;
+  color: black;
+  text-decoration: none;
+}
+.dropdown:hover .asstray{
+  display: block;
+}
+.drpMenu{
+color: black;
+  padding:12px 16px ;
+}
+.drpmenu{
+  background-color: black;
+  color: maroon;
+  padding:16px;
+  margin: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+} 
+.dropdown:hover .drpmenu{
+  background-color: forestgreen;
+  color: black;
+}
+.dropdown a{
+  color: maroon;
+  background-color: black;
+  border: 1px solid black;
+  padding: 16px;
+  text-decoration: none;
+  display: none;
+}
+.dropdown:hover a{
+  display: block;
+  color: maroon;
+}
+.dropdwon img{
+  width: 200px; 
+}
+.caption{
+padding:15px;
+  text-align: center; 
+}
+.dropdown img{
+  border:10px dotted maroon;
+  width: 50px;
+  height:50px;
+}
+.caption{
+  display:none;
+}
+.dropDownContent:hover .caption{
+display: block;
+color: maroon;
+  background-color: black;
+}
+.asstray img{
+  height: 500px;
+  width: 500px;
+}
